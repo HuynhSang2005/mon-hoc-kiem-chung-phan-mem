@@ -1,0 +1,4 @@
+- NestJS TypeScript starter API project (`test-api`).
+- Uses Bun as package manager (`bun.lock`, `packageManager: bun@1.3.9`).
+- Runtime can remain Node.js if Bun runtime compatibility issues appear.
+- Main source under `src/`; e2e tests under `test/`.

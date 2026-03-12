@@ -28,33 +28,39 @@
 ## Project setup
 
 ```bash
-$ npm install
+$ bun install
 ```
+
+## Bun migration notes
+
+- This project now uses Bun as the package manager.
+- NestJS scripts are run via Bun (`bun run ...`).
+- If you hit runtime compatibility issues with Bun in your environment, keep using Node.js runtime while still using Bun for dependency management.
 
 ## Compile and run the project
 
 ```bash
 # development
-$ npm run start
+$ bun run start
 
 # watch mode
-$ npm run start:dev
+$ bun run start:dev
 
 # production mode
-$ npm run start:prod
+$ bun run start:prod
 ```
 
 ## Run tests
 
 ```bash
 # unit tests
-$ npm run test
+$ bun run test
 
 # e2e tests
-$ npm run test:e2e
+$ bun run test:e2e
 
 # test coverage
-$ npm run test:cov
+$ bun run test:cov
 ```
 
 ## Deployment

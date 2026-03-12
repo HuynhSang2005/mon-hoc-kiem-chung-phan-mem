@@ -1,0 +1,7 @@
+- Install deps: `bun install`
+- Dev server: `bun run start:dev`
+- Build: `bun run build`
+- Unit tests: `bun run test`
+- E2E tests: `bun run test:e2e`
+- Lint: `bun run lint`
+- Format: `bun run format`

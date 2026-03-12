@@ -1,0 +1,3 @@
+- Run `bun install --frozen-lockfile` after dependency edits.
+- Run `bun run build` to verify compile.
+- Run at least `bun run test` before finishing.
